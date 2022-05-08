@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@800&display=swap');
+/* 
+---------------------------------------------
+reset
+--------------------------------------------- 
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
+pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
+s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+figure, header, nav, section, article, aside, footer, figcaption {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+html[xmlns] .clearfix {
+  display: block;
+}
+
+* html .clearfix {
+  height: 1%;
+}
+
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+header, nav, section, article, aside, footer, hgroup, main {
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  background-color: #fff;
+  font-size: 16px;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+	color: #FC3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+ul {
+  margin-bottom: 0px;
+  li {
+      list-style-type: none;
+  }
+}
+
+p {
+  font-size: 14px;
+  line-height: 25px;
+  color: #2a2a2a;
+}
+
+img {
+  width: 100%;
+  overflow: hidden;
+}
+/* 
+---------------------------------------------
+reset end
+--------------------------------------------- 
+*/
+
+
+
+#navbar {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    #logo {
+        height: 40px;
+        width: auto;
+    }
+    #the_navbar {
+        display: none;
+    }
+}
+#main_banner {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    #main_writings{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h1 {
+            font-family: 'Epilogue', sans-serif;
+            line-height: 1.2;
+            letter-spacing: 1px;
+            padding: 0 50px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 45px;
+            margin: 20px 0;
+        }
+        p {
+            font-size: 1.25rem;
+            padding: 20px;
+            letter-spacing: 1px;
+            line-height: 1.2;
+            word-wrap: break-word;
+            text-align: justify;
+        }
+        #how {
+            font-weight: bolder;
+            font-family: 'Epilogue', sans-serif;
+        }
+        ol {
+            text-align: center;
+            padding: 20px;
+            li {
+                line-height: 1.5;
+                line-break: strict;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    #main-buttons-red {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px auto;
+        a {
+            width: 70%;
+            height: auto;
+            border: solid 1px rgb(65, 180, 225);
+            padding: 15px 10px;
+            border-radius: 50px;
+            text-align: center;
+            color: rgb(65, 180, 225);
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+    }
+}
+#section1 {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    #section1_writings {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .section1_thumbs {
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            text-align: center;
+            padding: 20px;
+            img {
+                width: 150px;
+                height: auto;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
