@@ -136,26 +136,14 @@ reset end
             font-size: 45px;
             margin: 20px 0;
         }
-        p {
-            font-size: 1.25rem;
+        p.header_write {
+            font-size: 1.1rem;
             padding: 20px;
             letter-spacing: 1px;
             line-height: 1.2;
             word-wrap: break-word;
-            text-align: justify;
-        }
-        #how {
-            font-weight: bolder;
-            font-family: 'Epilogue', sans-serif;
-        }
-        ol {
+            font-stretch: condensed; 
             text-align: center;
-            padding: 20px;
-            li {
-                line-height: 1.5;
-                line-break: strict;
-                margin-bottom: 10px;
-            }
         }
     }
     #main-buttons-red {
